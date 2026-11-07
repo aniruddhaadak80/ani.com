@@ -1,0 +1,7 @@
+# GitHub Pages source is /docs on branch main (see `gh api
+# repos/aniruddhaadak80/ani.com/pages`), so the site lives in docs/.
+# These pages are plain static HTML with no Liquid/front-matter needs;
+# keep Jekyll from wrapping them in a theme (the default theme's
+# assets/css/style.scss build failed with "No such file or directory
+# @ dir_chdir0 - /github/workspace/docs").
+theme: null
